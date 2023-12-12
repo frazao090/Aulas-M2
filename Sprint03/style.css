@@ -1,0 +1,10 @@
+
+:root {
+    --cor-primaria: #4286f4;
+    --cor-secundaria: #f4a142;
+  }
+
+
+  h1 {
+    color: var(--cor-secundaria);
+  }
