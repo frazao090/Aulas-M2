@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --border-radius-1: 8px;
+  --color-grey-1: #212529;
+  --color-grey-2: #495057;
+  --color-grey-3: #f8f9fa;
+  --color-grey-4: #ffffff;
+	--color-status-online: #099268;
+	--space-element: 8px;
+}
+
+.card-user__status {
+  position: absolute;
+  top: var(--space-element);
+  left: var(--space-element);
+  padding: var(--space-element) calc(var(--space-element) * 2);
+  background-color: var(--color-status-online);
+  color: var(--color-grey-4);
+  font-weight: 500;
+  z-index: 1;
+  border-radius: calc(var(--border-radius-1) * 2);
+}
